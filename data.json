@@ -1,0 +1,64 @@
+{
+    "arabica": [
+        {
+            "foto": "images/produk/product_capuchino.jpg",
+            "nama": "Cappuccino Arabica",
+            "size": "500 Gram",
+            "harga": "200.000",
+            "link": "https://www.google.com/search?q=cappuccino+arabica&tbm=shop"
+        },
+        {
+            "foto": "images/produk/product_espresso.jpg",
+            "nama": "Pahit Arabica",
+            "size": "100 Gram",
+            "harga": "100.000",
+            "link": "https://www.google.com/search?q=pahit+arabica&tbm=shop"
+        },
+        {
+            "foto": "images/produk/product_latte.jpg",
+            "nama": "Latte Arabica",
+            "size": "150 Gram",
+            "harga": "150.000",
+            "link": "https://www.google.com/search?q=latte+arabica&tbm=shop"
+        }
+    ],
+    "robusta": [
+        {
+            "foto": "images/produk/product_kopi_susu.jpg",
+            "nama": "Kopsus Robusta",
+            "size": "100 Gram",
+            "harga": "500.000",
+            "link": "https://www.google.com/search?q=kopi+susu+robusta&tbm=shop"
+        },
+        {
+            "foto": "images/produk/product_latte.jpg",
+            "nama": "Latte Robusta",
+            "size": "150 Gram",
+            "harga": "150.000",
+            "link": "https://www.google.com/search?q=latte+robusta&tbm=shop"
+        }
+    ],
+    "starbucks": [
+        {
+            "foto": "https://www.starbucksathome.com/id/sites/default/files/2022-09/RTD_Espresso-Coffee_LongShadow.png",
+            "nama": "Espresso Coffee Long Shadow",
+            "size": "200 Gram",
+            "harga": "250.000",
+            "link": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.starbucksathome.com%2Fid%2Fid-id%2Fon-the-go%2Fdoubleshot-espresso-latte&psig=AOvVaw0vgHSYcKMx7kcUaTPJwEDb&ust=1686283130863000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCPCQ8qnksv8CFQAAAAAdAAAAABAE"
+        },
+        {
+            "foto": "https://www.starbuckschilled.com/globalassets/new-web/single-images-jpg/sbux_can_double_shot_espresso_v2_spritz_s_710px.jpg?preset=product375",
+            "nama": "Coffee Double Shot",
+            "size": "250 Gram",
+            "harga": "150.000",
+            "link": "https://www.starbuckschilled.com/globalassets/new-web/single-images-jpg/sbux_can_double_shot_espresso_v2_spritz_s_710px.jpg?preset=product375"
+        },
+        {
+            "foto": "https://www.starbucksathome.com/id/sites/default/files/2022-09/Starbucks%20RTD%20Campaign%202022%20Website_Product%20Detail%20Page%20-%20Product%20Packshot%20-%20With%20Shadow%20-%20Frappuccino%20Coffee_7.png",
+            "nama": "Milk Coffee Drink",
+            "size": "250 Gram",
+            "harga": "300.000",
+            "link": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.starbucksathome.com%2Fid%2Fid-id%2Fon-the-go%2Fdoubleshot-espresso-latte&psig=AOvVaw0vgHSYcKMx7kcUaTPJwEDb&ust=1686283130863000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCPCQ8qnksv8CFQAAAAAdAAAAABAE"
+        }
+    ]
+}
