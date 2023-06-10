@@ -15,11 +15,12 @@
 html {
    /* agar scroll ketika klik pada navigasi menjadi halus */
    scroll-behavior: smooth;
+   font-size: 16px;
 }
 
 body {
    /* mendaftarkan semua teks pada body menjadi family Poppins */
-   font-family: 'Roboto Slab', serif;
+   font-family: 'Signika Negative', sans-serif;
    font-weight: 300;
 }
 
@@ -102,7 +103,7 @@ nav {
    /* 
       justify-content: center mengatur elemen di dalamnya rata tengah horizontal
    */
-   justify-content: center;
+   justify-content: space-evenly;
 
    /* 
       flex-wrap: wrap mengatur agar jika panjang elemen berlebih, maka elemen
@@ -125,17 +126,21 @@ section {
 .navigasi {
    margin-left: auto;
    margin-right: 15px;
+   font-size: 1.1em;
 }
 
-.navigasi a,
-.shop {
+.navigasi a {
    color: #fff;
    padding-left: 8px;
    padding-right: 8px;
 }
 
+.navigasi a:hover {
+   text-decoration: underline;
+}
+
 .shop {
-   margin-right: 20px;
+   margin-right: 1em;
    background-color: white;
    color: rgb(207, 129, 39);
    padding-top: 5px;
@@ -143,6 +148,11 @@ section {
    padding-bottom: 5px;
    padding-left: 15px;
    border-radius: 10px;
+}
+
+.shop:hover {
+   background-color: rgb(224, 224, 224);
+   color: rgb(241, 170, 28);
 }
 
 .chat {
@@ -154,6 +164,20 @@ section {
    padding-bottom: 5px;
    padding-left: 15px;
    border-radius: 10px;
+}
+
+.chat:hover {
+   background-color: rgb(241, 170, 28);
+}
+
+.shop, .chat {
+   display: flex;
+   align-items: center;
+}
+
+.shop span, .chat span {
+   display: inline-block;
+   padding: 2px 5px;
 }
 
 
@@ -192,13 +216,13 @@ section {
 
 .subjudul-header {
    /* font-size digunakan untuk mengatur ukuran huruf */
-   font-size: 18px;
+   font-size: 1em;
 }
 
 .dapat-dibeli {
    margin-top: 20px;
    margin-bottom: 20px;
-   font-size: 14px;
+   font-size: 1em;
 }
 
 .olshop img {
@@ -256,13 +280,13 @@ terkait layout pada CSS untuk dapat memahami secara penuh
    margin-bottom: 40px;
 }
 
-.col-produk {
+.col-produk, .col-team {
    /* 
       Penulisan padding dan margin seperti padding:20px ini penulisan singkat 
       yang berarti top, right, bottom, left nilainya sama, yaitu 20px 
    */
    padding: 20px;
-   width: 25%;
+   width: 20%;
 }
 
 .col-produk img {
@@ -286,7 +310,8 @@ terkait layout pada CSS untuk dapat memahami secara penuh
 
 .nama-produk {
    margin-top: 15px;
-   font-weight: bold;
+   font-weight: 400;
+   font-size:1.2em
 }
 
 /* About US */
@@ -348,14 +373,20 @@ terkait layout pada CSS untuk dapat memahami secara penuh
 }
 
 .col-team {
-   width: 25%;
+   width: 20%;
    padding: 20px;
+   transition: all .2s ease-in-out;
 }
 
 .col-team img {
    box-shadow: 0 3px 10px -2px #000;
    border-radius: 50px 0px 50px 0px;
 }
+
+.col-team:hover {
+   transform: scale(1.2);
+}
+
 
 
 /* REVIEW */
@@ -397,6 +428,11 @@ terkait layout pada CSS untuk dapat memahami secara penuh
    padding: 35px 50px;
    box-shadow: 0px 0px 12px -10px #000;
    background-color: #fff;
+   transition: .2s ease-in-out;
+}
+
+.col-review:hover {
+   transform: scale(1.2);
 }
 
 .profile {
@@ -427,6 +463,14 @@ terkait layout pada CSS untuk dapat memahami secara penuh
    color: #313a35;
 }
 
+.col-kontak img, .col-kontak p {
+   transition: .15s ease-in-out;
+}
+
+.col-kontak:hover img, .col-kontak:hover p {
+   transform: scale(1.15);
+}
+
 /* FOOTER */
 
 footer {
@@ -445,6 +489,10 @@ footer .navigasi {
 
 /* UNTUK RESPONSIF DI BAWAH */
 @media (max-width: 600px) {
+   html {
+      font-size: 14px;
+   }
+   
    .navigasi {
       display: none;
    }
