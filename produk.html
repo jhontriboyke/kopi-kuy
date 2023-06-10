@@ -12,10 +12,19 @@
     <link rel="stylesheet" href="vendor/bootstrap/bootstrap-icons.css">
     <script src="vendor/bootstrap/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="https://rikikurnia.com/block/vendor/rikiblock/css/riki_block.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;500&display=swap"
+        rel="stylesheet">
     <style>
+        html {
+            font-size: 1.1em;
+        }
+
         body {
             background-image: url(https://rikikurnia.com/assets/bgkopi.png);
-            background-size: 5%;
+            background-size: 10%;
+            font-family: 'Signika Negative', sans-serif;
         }
 
         section {
@@ -53,6 +62,47 @@
             background-size: cover;
             height: 300px;
         }
+
+        .shop {
+            margin-right: 20px;
+            background-color: white;
+            color: rgb(207, 129, 39);
+            padding-top: 5px;
+            padding-right: 15px;
+            padding-bottom: 5px;
+            padding-left: 15px;
+            border-radius: 10px;
+        }
+
+        .shop:hover {
+            background-color: rgb(224, 224, 224);
+            color: rgb(241, 170, 28);
+        }
+
+        .chat {
+            margin-right: 30px;
+            background-color: rgb(207, 129, 39);
+            color: #fff;
+            padding-top: 5px;
+            padding-right: 15px;
+            padding-bottom: 5px;
+            padding-left: 15px;
+            border-radius: 10px;
+        }
+
+        .chat:hover {
+            background-color: rgb(241, 170, 28);
+            color: #fff;
+        }
+
+        a.nav-link {
+            color: #fff;
+        }
+
+        .container p {
+            color: rgb(68, 68, 68);
+            font-weight: 200;
+        }
     </style>
     <script src="js/jquery-3.6.3.min.js"></script>
 </head>
@@ -71,7 +121,7 @@
             <div class="collapse navbar-collapse" id="navbarNav11">
                 <ul class="navbar-nav ms-auto me-4">
                     <li class="nav-item active">
-                        <a class="nav-link active" href="index.html">Home</a>
+                        <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="index.html#best-seller">Best Seller</a>
@@ -85,11 +135,14 @@
                     <li class="nav-item">
                         <a class="nav-link" href="index.html#contact-us">Contact Us</a>
                     </li>
+
                 </ul>
                 <!-- <a class="btn bg-light text-dark ms-md-3 btn-shop" href="https://wa.me/6282158498388" target="_blank"><i
                         class="bi bi-cart"></i> Shop</a> -->
-                <a class="btn btn-outline-light ms-md-3" href="https://wa.me/6282158498388" target="_blank"><i
-                        class="bi bi-whatsapp"></i> Chat</a>
+                <a class="btn  shop" href="#"><i class="bi bi-cart"></i>
+                    Shop</a>
+                <a class="btn  chat" href="https://wa.me/6282158498388" target="_blank"><i class="bi bi-whatsapp"></i>
+                    Chat</a>
             </div>
         </div>
     </nav>
